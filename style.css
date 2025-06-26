@@ -7,7 +7,7 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 img {
-width: 500px;
+width: 250px;
 height: auto;
 
 
@@ -15,8 +15,23 @@ height: auto;
 
 h2 { 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.about-me {
+    background-color: rgb(0, 101, 217);
+}
+.button {background-color: rgb(230, 214, 125);}
 
 
 
 
+.image-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+}
+.image-grid img {
+    width: 10;
+    height:  auto;
+    border: 8px;
 }
